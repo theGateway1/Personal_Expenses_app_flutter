@@ -100,7 +100,7 @@ class _MyHomePageState extends State<MyHomePage> {
     );
   }
 
-  Widget _buildAppBar() {
+  AppBar _buildAppBar() {
     return AppBar(
       title: Text('Personal Expenses'),
       actions: <Widget>[
